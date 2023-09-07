@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background: url('../tools-bg.jpg') right/cover no-repeat;
+    
+}
+.opacity{
+    background-color: rgba(0, 0, 255, 0.219);
+}
+.opacity-2{
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.navbar-items{
+    font-size: 25px;
+    margin: 0px 20px;
+    color: white;
+}
+
+.navbar-items:hover{
+    color: rgb(192, 192, 192);
+}
+
+.logo{
+    font-size: 50px;
+    color: white;
+}
+.sec-1{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main-heading{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
